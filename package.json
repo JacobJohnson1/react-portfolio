@@ -11,8 +11,8 @@
     "react-scripts": "^1.1.5"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "predeploy": "yarn build",
+    "deploy": "npx serve -s build",
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
